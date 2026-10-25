@@ -26,7 +26,7 @@ The essential closed-loop operating stack for business coaching and autonomous w
 | Rank & Tier | Skill Command | Trigger Mode | Top Recommended Standard (Winner) | Stars | Core Coaching & Business Purpose |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | **#1 Discovery & Alignment** | /grill-me | **Explicitly Invoked (Human Gate)** | [RobMitt/grill-me-skill](https://github.com/RobMitt/grill-me-skill) | ~1.1k | Interactive Socratic interview that interrogates requirements and architectural tradeoffs before building. |
-| **#2 Gated Planning** | /plan | **Explicitly Invoked (Human Gate)** | [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | ~64k | Translates intent into a structured blueprint with explicit pass/fail gates to eliminate hallucination. |
+| **#2 Gated Planning** | /plan | **Explicitly Invoked (Human Gate)** | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | ~11k | Translates intent into a structured blueprint with explicit pass/fail gates to eliminate hallucination. |
 | **#3 Long-Running Autonomy** | /goal | **Explicitly Invoked (Cost & Time Gate)** | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | ~42k | Enables multi-hour AFK execution loops where agents self-correct and deliver verified receipts. |
 | **#4 Multi-Agent Swarms** | /teamwork | **Explicitly Invoked (Concurrency Gate)** | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | ~79k | Parallelizes complex projects across specialized subagents with file-pointer handoffs. |
 | **#5 Web & GUI Automation** | /browser | **Dynamic (Autonomous Tool)** | [browser-use/browser-use](https://github.com/browser-use/browser-use) | ~119k | Operates SaaS dashboards, portals, and web applications without formal APIs via vision and DOM trees. |

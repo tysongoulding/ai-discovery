@@ -23,18 +23,18 @@ The essential closed-loop operating stack for business coaching and autonomous w
 
 > **Clarify** (/grill-me) → **Blueprint** (/plan) → **Execute** (/goal, /teamwork, /browser) → **Verify** (/eval, /audit-security) → **Compound** (/extract-skill, /learn)
 
-| Rank & Tier | Skill Command | Trigger Mode | Standard / Project | Stars | Business Value |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **#1 Discovery & Alignment** | /grill-me | **Explicitly Invoked (Human Gate)** | [RobMitt/grill-me-skill](https://github.com/RobMitt/grill-me-skill) | ~1.1k | Interactive Socratic interview that interrogates requirements and architectural tradeoffs before building. |
-| **#2 Gated Planning** | /plan | **Explicitly Invoked (Human Gate)** | [open-gsd/gsd-core](https://github.com/open-gsd/gsd-core) | ~11k | Translates intent into a structured blueprint with explicit pass/fail gates to eliminate hallucination. |
-| **#3 Long-Running Autonomy** | /goal | **Explicitly Invoked (Cost & Time Gate)** | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | ~42k | Enables multi-hour AFK execution loops where agents self-correct and deliver verified receipts. |
-| **#4 Multi-Agent Swarms** | /teamwork | **Explicitly Invoked (Concurrency Gate)** | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | ~79k | Parallelizes complex projects across specialized subagents with file-pointer handoffs. |
-| **#5 Web & GUI Automation** | /browser | **Dynamic (Autonomous Tool)** | [browser-use/browser-use](https://github.com/browser-use/browser-use) | ~119k | Operates SaaS dashboards, portals, and web applications without formal APIs via vision and DOM trees. |
-| **#6 Automated Verification** | /eval | **Dynamic (Automated Gate)** | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | ~19k | Unit tests and deterministic assertions for hallucination, contract matching, and answer relevancy. |
-| **#7 Security & Red-Teaming** | /audit-security | **Dynamic (Safety Guardrail)** | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | ~45k | Audits tool boundary execution, detects prompt injections, and blocks credential leakage. |
-| **#8 FinOps & Tracing** | /observe | **Dynamic (Invisible Daemon)** | [langfuse/langfuse](https://github.com/langfuse/langfuse) | ~36k | Captures full execution trees, step latencies, token consumption, and per-user cost tracking. |
-| **#9 Skill Synthesis** | /extract-skill | **Explicitly Invoked (Quality Filter)** | [MineDojo/Voyager](https://github.com/MineDojo/Voyager) | ~7.3k | Mines raw chat conversations and solved tasks to automatically package clean, reusable SKILL.md bundles. |
-| **#10 Recursive Learning** | /learn | **Hybrid (Dynamic Draft, Invoked Ratchet)** | [mem0ai/mem0](https://github.com/mem0ai/mem0) | ~68k | Reflection and memory ratchets that turn human corrections into permanent institutional assets. |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
+| :--- | :--- | :--- | :--- | :--- |
+| **#1 Discovery & Alignment** | [/grill-me (RobMitt/grill-me-skill)](https://github.com/RobMitt/grill-me-skill) | ~1.1k <br><sub>*(Explicitly)*</sub> | Canonical standard for /grill-me. | Interactive Socratic interview that interrogates requirements and architectural tradeoffs before building. |
+| **#2 Gated Planning** | [/plan (open-gsd/gsd-core)](https://github.com/open-gsd/gsd-core) | ~11k <br><sub>*(Explicitly)*</sub> | Canonical standard for /plan. | Translates intent into a structured blueprint with explicit pass/fail gates to eliminate hallucination. |
+| **#3 Long-Running Autonomy** | [/goal (tinyhumansai/openhuman)](https://github.com/tinyhumansai/openhuman) | ~42k <br><sub>*(Explicitly)*</sub> | Canonical standard for /goal. | Enables multi-hour AFK execution loops where agents self-correct and deliver verified receipts. |
+| **#4 Multi-Agent Swarms** | [/teamwork (ruvnet/ruflo)](https://github.com/ruvnet/ruflo) | ~79k <br><sub>*(Explicitly)*</sub> | Canonical standard for /teamwork. | Parallelizes complex projects across specialized subagents with file-pointer handoffs. |
+| **#5 Web & GUI Automation** | [/browser (browser-use/browser-use)](https://github.com/browser-use/browser-use) | ~119k <br><sub>*(Dynamic)*</sub> | Canonical standard for /browser. | Operates SaaS dashboards, portals, and web applications without formal APIs via vision and DOM trees. |
+| **#6 Automated Verification** | [/eval (confident-ai/deepeval)](https://github.com/confident-ai/deepeval) | ~19k <br><sub>*(Dynamic)*</sub> | Canonical standard for /eval. | Unit tests and deterministic assertions for hallucination, contract matching, and answer relevancy. |
+| **#7 Security & Red-Teaming** | [/audit-security (cloudflare/security-audit-skill)](https://github.com/cloudflare/security-audit-skill) | ~45k <br><sub>*(Dynamic)*</sub> | Canonical standard for /audit-security. | Audits tool boundary execution, detects prompt injections, and blocks credential leakage. |
+| **#8 FinOps & Tracing** | [/observe (langfuse/langfuse)](https://github.com/langfuse/langfuse) | ~36k <br><sub>*(Dynamic)*</sub> | Canonical standard for /observe. | Captures full execution trees, step latencies, token consumption, and per-user cost tracking. |
+| **#9 Skill Synthesis** | [/extract-skill (MineDojo/Voyager)](https://github.com/MineDojo/Voyager) | ~7.3k <br><sub>*(Explicitly)*</sub> | Canonical standard for /extract-skill. | Mines raw chat conversations and solved tasks to automatically package clean, reusable SKILL.md bundles. |
+| **#10 Recursive Learning** | [/learn (mem0ai/mem0)](https://github.com/mem0ai/mem0) | ~68k <br><sub>*(Hybrid)*</sub> | Canonical standard for /learn. | Reflection and memory ratchets that turn human corrections into permanent institutional assets. |
 
 ---
 
@@ -42,7 +42,7 @@ The essential closed-loop operating stack for business coaching and autonomous w
 
 Curated community skills providing specialized art direction, diagramming, web research, security auditing, and humanized prose.
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Agent Skills** | [obra/superpowers](https://github.com/obra/superpowers) | ~305k | An agentic skills framework & software development methodology that works. | Teaches structured, composable skill authoring rather than ad-hoc prompting. |
 | **Agent Skills** | [mattpocock/skills](https://github.com/mattpocock/skills) | ~302k | Skills for Real Engineers. Straight from my .agents directory. | Practical agent skills and engineering workflows to teach actionable AI execution patterns. |
@@ -63,7 +63,7 @@ Curated community skills providing specialized art direction, diagramming, web r
 
 Harness-neutral desktop interfaces, API proxy multiplexers, and AFK execution loops (Grok Build, Muse Code, Dots, Claude Code, Codex).
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Switcher & Multi-Harness** | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | ~148k | A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. | Teaches harness neutrality and decoupling workflows from vendor-specific IDE extensions. |
 | **API Proxy & Protocol Bridge** | [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) | ~56k | Wrap Antigravity, Codex, Claude Code, Grok Build, Muse Code as a unified API service. | Demonstrates protocol conversion and load balancing across multi-agent CLI engines. |
@@ -79,7 +79,7 @@ Harness-neutral desktop interfaces, API proxy multiplexers, and AFK execution lo
 
 Enterprise agent execution planes, local cloud emulators, API linters, voice/meeting agents, and token budget compressors.
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Context & Graph Routing** | [casonadams/ripwire-rs](https://github.com/casonadams/ripwire-rs) | ~2 | High-throughput agent context router and deterministic PageRank call graph mapper in Rust. | Fast token-budgeted codebase mapping for multi-turn agent contexts. |
 | **Audio & Meeting Agents** | [Zackriya-Solutions/meetily](https://github.com/Zackriya-Solutions/meetily) | ~32,132 | Privacy-first AI meeting assistant with 4x faster transcription and automatic summary generation. | Local/privacy-preserving business meeting coaching and action item extraction. |
@@ -106,7 +106,7 @@ Enterprise agent execution planes, local cloud emulators, API linters, voice/mee
 
 ### Agent Harnesses & Loop Engineering
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Agent Harnesses** | [affaan-m/ECC](https://github.com/affaan-m/ECC) | ~288k | The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond. | Teaches that prompts alone do not make agents reliable; deterministic harnesses and memory layers are required. |
 | **Agent Harnesses** | [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | ~79k | Bash is all you need - A nano claude code-like agent harness, built from 0 to 1 | Demystifies agent architectures by stepping students through the loop from raw subprocess calls to tool parsing. |
@@ -115,7 +115,7 @@ Enterprise agent execution planes, local cloud emulators, API linters, voice/mee
 
 ### Context Engineering & Meta-Prompting
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Context Engineering** | [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | ~64k | Meta-prompting, context engineering and spec-driven development system for Claude Code. | Illustrates how structured file-based state (ROADMAP, STATE, atomic loops) eliminates hallucination and drift. |
 | **Context Engineering** | [muratcankoylan/Agent-Skills-for-Context-Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) | ~18k | Agent skills for context engineering, multi-agent architectures, and production agent systems. | Ready-made lessons showing how to structure skill injections without context rot. |
@@ -124,7 +124,7 @@ Enterprise agent execution planes, local cloud emulators, API linters, voice/mee
 
 ### Prompt Engineering Tutorials & Reference
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Prompt Engineering** | [dair-ai/Prompt-Engineering-Guide](https://github.com/dair-ai/Prompt-Engineering-Guide) | ~80k | Guides, papers, lessons, notebooks and resources for prompt engineering, context engineering, RAG, and AI Agents. | The standard textbook and slide reference for prompt engineering workshops. |
 | **Prompt Engineering** | [anthropics/prompt-eng-interactive-tutorial](https://github.com/anthropics/prompt-eng-interactive-tutorial) | ~39k | Anthropic's Interactive Prompt Engineering Tutorial. | Hands-on lab curriculum for training on frontier reasoning models (XML tags, few-shot, system prompts). |
@@ -132,7 +132,7 @@ Enterprise agent execution planes, local cloud emulators, API linters, voice/mee
 
 ### AI-DLC & Spec-Driven Development
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **AI-DLC & Spec-Driven** | [awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows) | ~5.5k | AI-Driven Life Cycle (AI-DLC) adaptive workflow steering rules for AI coding agents. | Official enterprise reference for AI-Driven Life Cycle steering rules and gated phases. |
 | **AI-DLC & Spec-Driven** | [Chorus-AIDLC/Chorus](https://github.com/Chorus-AIDLC/Chorus) | ~1.2k | The Agent Harness for AI-Human Collaboration, inspired by the AI-DLC (AI-Driven Development Lifecycle) | Coaching product managers and engineers on pairing etiquette and handoff checkpoints. |
@@ -140,41 +140,41 @@ Enterprise agent execution planes, local cloud emulators, API linters, voice/mee
 
 ### Browser & Web Agents
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Browser & Web Agents** | [browser-use/browser-use](https://github.com/browser-use/browser-use) | ~119k | Open-source Python library for AI browser agents with vision and accessibility tree support. | Coaching teams on automating workflows across SaaS interfaces without formal APIs. |
 | **Browser & Web Agents** | [browserbase/stagehand](https://github.com/browserbase/stagehand) | ~26k | The AI web browsing SDK built on Playwright for reliable agentic interactions. | Teaches resilient web scraping, DOM action execution, and end-to-end web QA testing. |
 
 ### Model Context Protocol (MCP)
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **MCP & Tool Protocols** | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ~92k | Anthropic official Model Context Protocol reference servers (GitHub, Postgres, SQLite, Slack, etc.). | The universal standard for connecting agents to external databases, files, and enterprise APIs. |
 
 ### Memory & Knowledge Retrieval
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Memory & Knowledge** | [mem0ai/mem0](https://github.com/mem0ai/mem0) | ~68k | The Memory Layer for AI Agents - Drop-in memory infrastructure for persistent multi-session context. | Teaches how agents can remember user preferences and facts across distinct chat sessions. |
 | **Memory & Knowledge** | [microsoft/graphrag](https://github.com/microsoft/graphrag) | ~36k | A modular graph-based Retrieval-Augmented Generation (RAG) system. | Demonstrates knowledge graph indexing over unstructured docs to answer complex multi-hop queries. |
 
 ### Observability, Tracing & FinOps
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Observability & Tracing** | [langfuse/langfuse](https://github.com/langfuse/langfuse) | ~36k | Open source agent evals & observability: Trace, evaluate, and monitor LLM application metrics & cost. | Critical coaching topic: FinOps, token budgeting, latency profiling, and multi-turn debug traces. |
 | **Observability & Tracing** | [Arize-ai/phoenix](https://github.com/Arize-ai/phoenix) | ~12k | AI Observability & Evaluation platform for LLMs and agent traces. | Visualizing step-by-step execution trees and surfacing hallucination hotspots. |
 
 ### Evaluations & CI/CD Benchmarks
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Evaluations & Benchmarks** | [openai/evals](https://github.com/openai/evals) | ~20k | OpenAI framework for evaluating LLMs and LLM systems, plus open-source registry of benchmarks. | Teaches how to move past vibe-coding by creating objective, automated regression test suites. |
 | **Evaluations & Benchmarks** | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | ~19k | The LLM Evaluation Framework: unit testing for LLM apps (hallucination, faithfulness, relevancy). | Shows developers how to write CI/CD unit tests for generative outputs and prompt versions. |
 
 ### Security & Guardrails
 
-| Category | Project / Repository | Stars / Type | Description | Business Value |
+| Category | Project / Repository | Stars / Tier | Description | Business Value |
 | :--- | :--- | :--- | :--- | :--- |
 | **Security & Guardrails** | [NVIDIA/garak](https://github.com/NVIDIA/garak) | ~9.7k | The LLM vulnerability scanner (checks for prompt injection, jailbreaks, data leakage). | Crucial training for consulting/enterprise: verifying agents against adversarial attacks. |
 | **Security & Guardrails** | [guardrails-ai/guardrails](https://github.com/guardrails-ai/guardrails) | ~7.6k | Adding guardrails to large language models: real-time schema validation and semantic correction. | Teaches enforcing strict JSON contracts, PII redaction, and deterministic response bounds. |

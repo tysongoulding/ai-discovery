@@ -1,8 +1,8 @@
-# AI Discovery: The Production Agent & Coaching Knowledge Base
+# AI Discovery: The Production Agent & Knowledge Base
 
 A curated, battle-tested registry of the most impactful open-source repositories, agent harnesses, context engineering guides, autonomous execution layers, and operational infrastructure on GitHub.
 
-Designed for AI coaching, enterprise training, engineering leadership, and practitioners moving beyond basic chat prompting into autonomous, verifiable systems.
+Designed for enterprise training, engineering leadership, and practitioners moving beyond basic chat prompting into autonomous, verifiable systems.
 
 ---
 
@@ -13,13 +13,13 @@ Designed for AI coaching, enterprise training, engineering leadership, and pract
 3. [Autonomous Runners & Switchers](#3-autonomous-runners--switchers)
 4. [Tools, Infra, Gateways & Audio Agents](#4-tools-infra-gateways--audio-agents)
 5. [Core Dimensions & Foundations](#5-core-dimensions--foundations)
-6. [Coaching Progression Architecture](#-coaching-progression-architecture)
+6. [Disclaimer & Attribution](#-disclaimer--attribution)
 
 ---
 
 ## 1. The Definitive Top 10 Executive Skills & Standards
 
-The essential closed-loop operating stack for business coaching and autonomous workflows:
+The essential closed-loop operating stack for business workflows and autonomous systems:
 
 > **Clarify** (/grill-me) → **Blueprint** (/plan) → **Execute** (/goal, /teamwork, /browser) → **Verify** (/eval, /audit-security) → **Compound** (/extract-skill, /learn)
 
@@ -181,11 +181,8 @@ Enterprise agent execution planes, local cloud emulators, API linters, voice/mee
 
 ---
 
-## 🎓 Coaching Progression Architecture
+## ⚖️ Disclaimer & Attribution
 
-When training teams or corporate clients on AI transformation, structure the progression across 4 capability rungs:
+This repository is an independently curated personal index and reference library. **I do not claim ownership, authorship, or credit for any of the third-party repositories, tools, or research linked herein.** All intellectual property, trademarks, licenses, and copyrights belong entirely to their respective original authors and organizations.
 
-1. **Rung 1: Foundations & Security** — Systematic prompting (XML tags, few-shot), schema enforcement, and prompt injection defense.
-2. **Rung 2: Context Engineering & Skills** — Managing attention budgets, dynamic context injection, and installing reusable .agents/skills.
-3. **Rung 3: The AI-DLC Method & Tool Protocols** — Spec-driven development (specs.md), MCP connectivity, and automated evaluation suites (deepeval).
-4. **Rung 4: Autonomous Harnesses & Multi-Agent Swarms** — AFK execution (/goal), multi-agent delegation (/teamwork), and continuous learning ratchets (/learn).
+The purpose of this compilation is solely to provide shared insight, evaluation, and documentation on the open-source projects, agent harnesses, and workflows that I have personally used, tested, and found valuable.

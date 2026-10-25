@@ -8,8 +8,8 @@ Designed for AI coaching, enterprise training, engineering leadership, and pract
 
 ## 📑 Table of Contents
 
-1. [The Executive Top 10 Skills](#1-the-executive-top-10-skills)
-2. [Agent Skills & Superpowers](#2-agent-skills--superpowers)
+1. [The Definitive Top 10 Executive Skills & Benchmark Matrix](#1-the-definitive-top-10-executive-skills--benchmark-matrix)
+2. [Agent Skills & Superpowers Ecosystem](#2-agent-skills--superpowers-ecosystem)
 3. [Autonomous Runners & Switchers](#3-autonomous-runners--switchers)
 4. [Tools, Infra, Gateways & Audio Agents](#4-tools-infra-gateways--audio-agents)
 5. [Core Dimensions & Foundations](#5-core-dimensions--foundations)
@@ -17,30 +17,30 @@ Designed for AI coaching, enterprise training, engineering leadership, and pract
 
 ---
 
-## 1. The Executive Top 10 Skills
+## 1. The Definitive Top 10 Executive Skills & Benchmark Matrix
 
 The essential closed-loop operating stack for business coaching and autonomous workflows:
 
 > **Clarify** (/grill-me) → **Blueprint** (/plan) → **Execute** (/goal, /teamwork, /browser) → **Verify** (/eval, /audit-security) → **Compound** (/extract-skill, /learn)
 
-| Category | Project / Repository | Stars / Type | Link | Description | Coaching & Business Value |
+| Rank & Tier | Skill Command | Top Recommended Standard (Winner) | Stars | Alternative Contenders & Benchmarks | Core Coaching & Business Purpose |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Executive Top 5** | /grill-me (Discovery & Alignment) | Core Workflow | [Visit](https://github.com/RobMitt/grill-me-skill) | Adaptive interactive interview that interrogates requirements and architectural tradeoffs before writing code or plans. | Forces clarity. Prevents wasted hours of building the wrong thing by stress-testing assumptions upfront. |
-| **Executive Top 5** | /plan (Gated Blueprinting) | Core Workflow | [Visit](https://github.com/MaxInGaussian/pi-plans) | Translates aligned intent into a structured, step-by-step engineering/business blueprint with verification gates. | Prevents AI hallucination and scope drift by establishing a written contract before execution begins. |
-| **Executive Top 5** | /goal (Long-Running Autonomy) | Core Workflow | [Visit](https://github.com/tinyhumansai/openhuman) | Sets multi-hour autonomous execution where the agent drives tasks to completion with verification loops and self-correction. | Unlocks true AFK productivity: agents run automated checks, fix their own bugs, and report back with proof. |
-| **Executive Top 5** | /teamwork-preview (Multi-Agent Swarms) | Core Workflow | [Visit](https://github.com/ruvnet/ruflo) | Multi-agent orchestration that divides complex projects into specialized parallel roles (planner, builder, verifier, auditor). | Scale multiplier. Moves users from single-threaded chatbots to managing a coordinated synthetic agency. |
-| **Executive Top 5** | /learn (Compounding Memory & Ratchets) | Core Workflow | [Visit](https://github.com/rohitg00/pro-workflow) | Continuous reflection loop that records developer corrections, team rules, and anti-patterns into persistent memory. | Durable value. Guarantees the AI never makes the same mistake twice and compounds organizational knowledge. |
-| **Executive Impact Stack** | /extract-skill (Skill Synthesis from Chat) | Knowledge Capture | [Visit](https://github.com/MineDojo/Voyager) | Mines raw conversational transcripts and successful execution steps to synthesize clean, standalone SKILL.md bundles. | Turns one-time problem solving into permanent enterprise assets without manual documentation overhead. |
-| **Executive Impact Stack** | /eval (Automated Output & Benchmark Testing) | Quality Assurance | [Visit](https://github.com/confident-ai/deepeval) | Runs automated assertions (faithfulness, hallucination, contract adherence) against agent deliverables. | Eliminates subjective vibe checks; gives business leaders empirical pass/fail proof before shipping. |
-| **Executive Impact Stack** | /browser (GUI & Web Automation) | Action Execution | [Visit](https://github.com/browser-use/browser-use) | Hands the agent vision and accessibility tree control to operate web apps, portals, and legacy GUIs without APIs. | Automates tedious operations workflows across SaaS dashboards, customer portals, and internal tools. |
-| **Executive Impact Stack** | /audit-security (Red-Teaming & Injection Check) | Risk & Governance | [Visit](https://github.com/cloudflare/security-audit-skill) | Automated security scan auditing tool execution permissions, prompt injection risks, and data leakage paths. | Crucial governance layer for compliance, enterprise client reviews, and security sign-offs. |
-| **Executive Impact Stack** | /observe (FinOps & Token Tracing) | Cost & Monitoring | [Visit](https://github.com/langfuse/langfuse) | Captures real-time execution trees, step latencies, token consumption, and per-user cost attribution. | Prevents runaway agent loops and provides clear ROI/cost accounting for business operations. |
+| **#1 Discovery & Alignment** | /grill-me | [RobMitt/grill-me-skill](https://github.com/RobMitt/grill-me-skill) | ~1.1k | TexasBedouin/vibe-check (~625), KAIXUAN-zhang-bot/grillme-skill (~23) | Interactive Socratic interview that interrogates requirements and architectural tradeoffs before building. |
+| **#2 Gated Planning** | /plan | [gsd-build/get-shit-done](https://github.com/gsd-build/get-shit-done) | ~64k | ersinkoc/project-architect (~260), MaxInGaussian/pi-plans (~240) | Translates intent into a structured blueprint with explicit pass/fail gates to eliminate hallucination. |
+| **#3 Long-Running Autonomy** | /goal | [tinyhumansai/openhuman](https://github.com/tinyhumansai/openhuman) | ~42k | aattaran/deepclaude (~2.3k), antopolskiy/kanban-md (~226) | Enables multi-hour AFK execution loops where agents self-correct and deliver verified receipts. |
+| **#4 Multi-Agent Swarms** | /teamwork | [ruvnet/ruflo](https://github.com/ruvnet/ruflo) | ~79k | affaan-m/ECC (~288k), HKUDS/DeepCode (~17k) | Parallelizes complex projects across specialized subagents with file-pointer handoffs. |
+| **#5 Web & GUI Automation** | /browser | [browser-use/browser-use](https://github.com/browser-use/browser-use) | ~119k | browserbase/stagehand (~26k) | Operates SaaS dashboards, portals, and web applications without formal APIs via vision and DOM trees. |
+| **#6 Automated Verification** | /eval | [confident-ai/deepeval](https://github.com/confident-ai/deepeval) | ~19k | openai/evals (~20k), langfuse/langfuse (~36k) | Unit tests and deterministic assertions for hallucination, contract matching, and answer relevancy. |
+| **#7 Security & Red-Teaming** | /audit-security | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | ~45k | NVIDIA/garak (~9.7k), guardrails-ai/guardrails (~7.6k) | Audits tool boundary execution, detects prompt injections, and blocks credential leakage. |
+| **#8 FinOps & Tracing** | /observe | [langfuse/langfuse](https://github.com/langfuse/langfuse) | ~36k | Arize-ai/phoenix (~12k), junhoyeo/tokscale (~5.7k) | Captures full execution trees, step latencies, token consumption, and per-user cost tracking. |
+| **#9 Skill Synthesis** | /extract-skill | [MineDojo/Voyager](https://github.com/MineDojo/Voyager) | ~7.3k | jzOcb/writing-style-skill (~273), crafter-station/skills (~113) | Mines raw chat conversations and solved tasks to automatically package clean, reusable SKILL.md bundles. |
+| **#10 Recursive Learning** | /learn | [mem0ai/mem0](https://github.com/mem0ai/mem0) | ~68k | DietrichGebert/ponytail (~176k), rohitg00/pro-workflow (~2.9k) | Reflection and memory ratchets that turn human corrections into permanent institutional assets. |
 
 ---
 
-## 2. Agent Skills & Superpowers
+## 2. Agent Skills & Superpowers Ecosystem
 
-Production skills that provide specialized art direction, diagramming, web research, security auditing, and humanized prose.
+Curated community skills providing specialized art direction, diagramming, web research, security auditing, and humanized prose.
 
 | Category | Project / Repository | Stars / Type | Link | Description | Coaching & Business Value |
 | :--- | :--- | :--- | :--- | :--- | :--- |

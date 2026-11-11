@@ -99,6 +99,7 @@ Enterprise agent execution planes, local cloud emulators, API linters, voice/mee
 | **Spec-Driven Intent** | [pathmodeio/intentspec](https://github.com/pathmodeio/intentspec) | ~4 | IntentSpec: an open format for product intent, translating user specs into agent executable steps. | Standardizing business requirements and PRDs so agents can build without misinterpretation. |
 | **Context Compression & Prompt Shrink** | [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | ~114,853 | Why use many token when few token do trick: viral token compression and prompt pruning tool. | Token budgeting and context window compression to maximize speed and lower token burn. |
 | **Context Window Optimization** | [mksglu/context-mode](https://github.com/mksglu/context-mode) | ~32,143 | Context window optimization and retrieval virtualization for AI coding assistants. | Virtualizes large documentation trees into compact summaries, injecting info JIT. |
+| **Native UI Frameworks** | [longbridge/nsh](https://github.com/longbridge/nsh) ([nsh.dev](https://nsh.dev/)) | ~2,544 | Native Shell: a Rust-first native UI framework for iOS, Android, macOS, Windows, Linux and the web, with each platform's own UI and interaction. | Build-once, native-everywhere app surfaces for agent-driven products without per-platform rewrites. |
 
 ---
 
